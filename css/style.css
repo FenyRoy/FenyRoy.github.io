@@ -10,6 +10,11 @@
 * 	Template Style 
 *
 * ======================================================= */
+
+:root{
+  --hue-neutral: 200;
+}
+
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -1288,6 +1293,22 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.live {
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: hsl(var(--hue), 100%, 20%);
+    background-image: url(../images/logo_mace.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
